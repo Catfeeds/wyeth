@@ -1,0 +1,11 @@
+stages:
+  - test
+HTTP API Test:
+  stage: test
+  script:
+    - file_real_path=$(readlink -f .)
+    - echo $file_real_path
+
+    - '[[ -e $file_real_path/tests/postman.env.json ]] || exit 1'
+    - newman run $file_real_path/tests/httptest.json -e $file_real_path/tests/postman.env.json
+    - echo 'HTTP API Test Complete'

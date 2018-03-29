@@ -1,0 +1,20 @@
+.env
+/.idea
+.DS_Store
+.gitattributes
+/node_modules
+/vendor
+sftp-config.json
+_ide_helper.php
+.phpstorm.meta.php
+/build/
+
+#public ignore
+public/phpmyadmin
+public/phpmyadminread
+public/test.php
+public/mp3
+
+node_modules
+# 忽略静态页面路径配置 indexConfig.json
+indexConfig*

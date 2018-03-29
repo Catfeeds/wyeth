@@ -1,0 +1,190 @@
+body, h1, h2, h3, h4, h5, p, ul, ol, input，dl, dd, form, th, td, hr {
+    margin: 0;
+    padding: 0;
+}
+
+em, i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+}
+
+input, textarea, button {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+body {
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+:root {
+    font-size: 75px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*==================================================================*/
+#box {
+    background: url(../img/bg.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    max-width: 750px;
+    margin: auto;
+    position: relative;
+}
+
+#box .title {
+    width: 100%;
+    position: absolute;
+    top: 15.49%;
+}
+
+#box .title a {
+    width: 77.47%;
+    display: block;
+    margin: auto;
+}
+
+#box .box_btn {
+    width: 100%;
+    position: absolute;
+    bottom: 4.14%;
+}
+
+#box .box_btn a {
+    display: block;
+    width: 52%;
+    margin: auto;
+}
+
+#box #box_content {
+    width: 100%;
+
+}
+
+#box #box_content li {
+    position: absolute;
+    width: 100%;
+    height: 11.175vh;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#box #box_content li:nth-child(1) {
+    top: 48.59%;
+}
+
+#box #box_content li:nth-child(2) {
+    top: 60.7%;
+}
+
+#box #box_content li:nth-child(3) {
+    top: 72.27%;
+}
+
+#box .left_portrait {
+    width: 12.43vw;
+    /*height: 7.454vh;*/
+    margin-top: 3.75%;
+    float: left;
+    margin-left: 12.27%;
+    border-radius: 50% 50%;
+
+}
+
+#box .left_portrait img {
+    border-radius: 50% 50%;
+}
+
+#box .right_test {
+    color: #9f422e;
+    line-height: 2.75vh;
+    height: 11vh;
+    position: absolute;
+    left: 28vw;
+}
+
+#box .right_test h4{
+    width: 55vw;
+    font-size: 16px;
+    height: 16px;
+    overflow: hidden;
+    /*text-overflow: ellipsis;*/
+    white-space: nowrap;
+    margin-bottom:0.5vh;
+}
+#box .teacher-info{
+    width: 54vw;
+    position: absolute;
+    overflow:hidden;
+    /*text-overflow:ellipsis;*/
+    /*white-space:nowrap;*/
+}
+#box .icon {
+    width: 6.75%;
+    float: left;
+}
+
+#box .right_test p {
+    float: left;
+    line-height: 18px;
+}
+
+#box .right_test div span {
+    font-size: 14px;
+    overflow: hidden;
+    height:14px;
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
+}
+
+#box .right_test div p {
+    width: 6%;
+    margin-right: 5%;
+    margin-top: 1%;
+}

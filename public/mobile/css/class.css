@@ -1,0 +1,107 @@
+@charset "utf-8";
+*,body,div,p,table,tr,td,ul,li,ol,dd,dl,dt,span,img,h4{
+    font-family:"微软雅黑", "Microsoft YaHei UI", "黑体", Arial, "Microsoft JhengHei";
+    margin:0;
+    padding:0;
+    outline:none;
+    font-size:14px;
+    -webkit-tap-highlight-color:transparent;
+}
+ul,li{
+    list-style:none;
+}
+body{
+    position:absolute;
+    width:100%;
+    /*overflow:hidden;*/
+    background:#ebebeb;
+}
+img{display: block;}
+.ds-n { display:none; }
+.to-right{display:block; overflow:hidden; width:0px; height:0px; border:6px solid #ccc; border-color:#ebebeb #a1e85a; border-width:6px 0 6px 6px; margin-right:-6px;}
+.to-left{display:block; overflow:hidden; width:0px; height:0px; border:6px solid #ccc; border-color:#ebebeb #FFF; border-width:6px 6px 6px 0; margin-left:-6px;}
+
+.page {
+    width:100%;
+}
+
+.content  { width:100%;height:100%; position:relative; overflow:hidden; }
+
+.content .seach_area{width:100%; position: relative; background:#FFFFFF; padding:1.0em; padding-top:2.0em;}
+.content .seach_area .seach_class_btn{width:12.65625%; position: relative;}
+.seach_area .seach_class_btn img{width:100%;}
+
+.content .seach_area .seach_input{width:66%; position:absolute; background: #fef078; top:2.0em; left:20%; border-radius: 10px;}
+.seach_area .seach_input img{width:5.9375%; margin-top:0.5em; margin-left:1.0em; margin-bottom: 0.5em;}
+.seach_area .seach_input input{width:70%; height:60%; position:absolute; top:20%; left:15%; color:#9f9a6d; background: #fef078; border:0;}
+
+.content .hot_seach{width:70%; position: relative; left:20%; margin-top: 1.0em;}
+.hot_seach ul{width:100%; height:100%; position: relative; left:0; top:0; overflow: hidden;}
+.hot_seach ul li{float: left; border-radius: 10px; border:1px solid; padding-top:1px; padding-bottom: 1px; padding-right:6px; padding-left: 6px; color: #323232; text-align: center; margin-left: 1.0em; margin-top:0.5em;}
+
+.content .class_show_more{width: 100%; position: relative;}
+.content .class_show_more img{width: 100%; position: relative;}
+
+
+
+.lessonList{width: 100%;background: #ffffff;}
+.lessonList hr{width:100%; height:10px; background: #ffeeb4; position: relative; border:0;}
+.lessonList hr:last-child{width:100%; height:4.0em; background: #ffeeb4; position: relative; border:0;}
+.lessonList .newsContent{width: 100%;background: url("../img/lesson/newsbg.png") left top no-repeat;background-size: 10%;padding:1em 0;}
+.lessonList .newsContent p{width: 100%;display:block;color:#703900;font-size: 1.2em;line-height: 2em;height: 2em; font-size: 100%;}
+.lessonList .newsContent p.newsBorder{font-weight: bold;}
+.lessonList .newsContent p i.yellow{color:#fedc62;font-weight: bold;}
+.lessonList .newsContent p i.dateIcon{padding-left:1.3em;background: url("../images/bany/date_icon.png")center center no-repeat;background-size: 1.2em;}
+.lessonList .newsContent p i.babyIcon{padding-left:1.3em;background: url("../img/lesson/baby_icon.png")center center no-repeat;background-size: 1.2em;}
+.lessonList .newsContent p i.likeIcon{padding-left:1.3em;background: url("../images/bany/icon_02.png")center center no-repeat;background-size: 1.2em;}
+.lessonList .newsContent .likeIcon1{height:13px; padding-left:1.3em;background-size: 1.2em;}
+.lessonLineTypeOne {position: relative;margin-bottom: 1em; background: #fff;float: left;width: 100%}
+.lessonLineTypeOne .newsCover{width: 30%;margin: 1.5%;  display: table;  float: left;  vertical-align: middle;  text-align: center;}
+.lessonLineTypeOne .newsCover img{height: 8em;
+    width: initial;
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    float: none;}
+.lessonLineTypeOne .newsCover .play_btn {width:30%; height:79%; margin: 1.5%; position: absolute; top:0; left:0; background: url(../img/lesson/play_btn.png) no-repeat; background-size: 100% 100%; display: inline; }
+.lessonLineTypeOne .newsContent{width:50%;margin-left:37%;}
+.lessonLineTypeOne .newsContent h4,
+.lessonLineTypeOne .newsContent p{width:100%;font-size: 1em;color:#171717;}
+.lessonLineTypeOne .newsContent h4{font-size: 1.2em;}
+.lessonLineTypeOne .newsContent h4 a{color:#171717;}
+.lessonLineTypeOne .newsContent p span{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+
+.lessonLineTypeOne .newsContent p.doctor{background: url("../images/bany/icon_01.png") left top no-repeat;height: inherit;line-height: inherit;background-size: 1.3em;}
+.lessonLineTypeOne .newsContent p.doctor span{text-indent: 2em;line-height: 1.2em;height:1.2em;
+    float: none;display:inline-block; width: 120%;}
+.lessonList .newsContent p i{margin-right: 0.5em;}
+.lessonList .newsContent .functionBTN{width:19.5%;height: 3em;background: url("../images/bany/reg_review.png") center center no-repeat;background-size: 100%;display: block;position: absolute;bottom:2%;right:1%;}
+.lessonList .newsContent .functionBTN.regstart{background-image: url("../images/bany/reg_start.png")}
+.lessonList .newsContent .functionBTN.regend{background-image: url("../images/bany/reg_end.png")}
+.lessonList .newsContent .functionBTN.regreview{background-image: url("../images/bany/reg_review.png")}
+.lessonList .newsContent .functionBTN.regwait{background-image: url("../images/bany/reg_wait.png")}
+.lessonList .newsContent .functionBTN.regplaying{background-image: url("../images/bany/reg_playing.png")}
+
+.fixedMenu{height: 4em;line-height: 4em;background: #fedc61;width: 100%;position: fixed;bottom: 0;}
+.fixedMenu a{width: 33%;float: left;height: 4em;background: url("../img/lesson/buttonMenu1.png") center center no-repeat;background-size: 2.5em;}
+.fixedMenu a.lesson{background-image: url("../images/bany/buttonMenu1.png")}
+.fixedMenu a.lesson.current{background-image: url("../images/bany/buttonMenu1_c.png")}
+.fixedMenu a.discovery{background-image: url("../images/bany/buttonMenu2.png")}
+.fixedMenu a.discovery.current{background-image: url("../img/lesson/buttonMenu2_c.png")}
+.fixedMenu a.mine{background-image: url("../images/bany/buttonMenu3.png")}
+.fixedMenu a.mine.current{background-image: url("../images/bany/buttonMenu3_c.png")}
+
+.class_tc {width:100%; position:relative; top:0; left:0; background: #FFF;}
+.class_tc .input_area{width:80%; height:3em; position:relative; top:0; left:10%; background: #fef078; border-radius: 20px; margin-top:1em; margin-bottom: 1em; }
+.class_tc .input_area img{width:5.9375%; padding-top:0.7em; margin-left:1.0em; margin-bottom: 0.5em;}
+.class_tc .input_area input{width:70%; height:60%; position:absolute; top:20%; left:15%; color:#9f9a6d; background: #fef078; border:0;}
+

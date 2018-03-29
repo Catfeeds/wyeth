@@ -1,0 +1,74 @@
+html{
+    -webkit-overflow-scrolling: touch;
+-moz-overflow-scrolling: touch;
+-o-overflow-scrolling: touch;
+overflow-scrolling: touch;
+}
+.b_room_top{padding:15px 0 0;background:url(../img/b_room_top.png) no-repeat;background-size:100%;position:relative;}
+.livein{width:60px;height:20px;margin:0 auto;background:url(../img/b_livein.png) no-repeat;background-size:100%;}
+.b_class_bg{height:200px;background:#ddd;margin-top:14px;position:relative;}
+.b_class_bg .b_livein_bg{position:absolute;width:82px;height:75px;background:url(../img/b_erji.png) no-repeat;background-size:100%;top:50%;left:50%;margin-left:-41px;margin-top:-37.5px;opacity:0.8;}
+.b_class_bg .b_sound_wave{position:absolute;width:73px;height:52px;background:url(../img/b_audio_wave.png) no-repeat;background-size:100%;right:20px;bottom:14px;opacity:0.8;}
+.b_class_info{height:50px;border-bottom:1px solid #e1e1e1;line-height:50px;}
+.b_class_info .b_class_name{padding-left:12px;font-size:18px;color:#000;}
+.b_class_info .b_sound_icon{float:right;background:url(../img/b_sound.png) no-repeat;background-size:100%;height:20px;width:23px;margin-top:16px;margin-right:12px;}
+
+.b_doctor_info{padding:10px 10px 10px 20px;}
+.b_doctor_info .b_doc_avatar{float:left;border:2px solid #fedc62;border-radius:34px;width:68px;height:68px;overflow:hidden;}
+.b_doctor_info .b_doc_avatar img{width:100%;height:100%;}
+.b_doctor_info .b_doc_info{margin-left:80px;}
+.b_doctor_info .b_doc_info .b_name{padding-top:15px;}
+.b_doctor_info .b_doc_info .b_name .b_flower{float:right;margin-top:5px;}
+.b_doctor_info .b_doc_info .b_name .b_flower .b_flower_icon{width:16px;height:15px;float:left;font-style:normal;background:url(../img/b_flower.png) no-repeat;background-size:100%;}
+.b_doctor_info .b_doc_info .b_name .b_flower .b_flower_num{margin-left:4px;float:left;font-style:normal;font-size:15px;color:#c2c2c2;line-height:15px;}
+.b_doctor_info .b_doc_info .b_name p{font-size:18px;}
+.b_doctor_info .b_doc_info .b_other_info{font-size:13px;color:#703900;margin-top:5px;}
+.b_doctor_info .b_doc_info .b_other_info .b_hos_name{margin-right:5px;}
+.b_doctor_info .b_doc_info .b_btn_wrap{}
+.b_doctor_info .b_doc_info .b_answer_btn{width:85px;height:40px;float:right;background:url(../img/b_ask_question.png) no-repeat;background-size:100%;}
+
+.b_chat_area{border-top:1px solid #ae6e1d;background:#fedc62;height:46px;}
+.b_chat_area .b_chat_title{width:108px;height:15px;margin-top:15px;margin-left:16px;background:url(../img/b_title1.png) no-repeat;background-size:100%;}
+
+.b_chat_content_list{padding-bottom:55px;overflow:hidden;background:#ebebeb;padding-top:10px;}
+.b_chat_content{position:relative;margin-bottom:10px;}
+.b_chat_content .user_avatar{float: left;height: 40px;margin-left: 10px;overflow: hidden;width: 40px;}
+.b_chat_content .user_avatar img{width:100%;height:100%;}
+.b_chat_content .b_content{margin-left: 62px;}
+.b_chat_content .b_content .b_user_name{color:#666666;font-size:13px;padding-left:4px;}
+.b_chat_content .b_content .b_txt{float:left;line-height:20px;font-size:16px;color:#333333;overflow:hidden;margin-top:2px;background: #fff;border: 1px solid #ddd;border-radius: 8px;padding:10px 12px;white-space: normal;max-width: 60%;word-break: break-all;}
+.b_chat_content .b_content .b_reply_chat{width:62px;height:20px;position:absolute;top:20px;right:11px;background:url(../img/b_reply_btn.png) no-repeat;background-size:100%;}
+.b_chat_content .b_tran_icon{position:absolute;width:6px;height:9px;background:url(../img/b_left_tran.png) no-repeat;top: 32px;left:57px;background-size:100%;}
+
+.b_mine .b_content_wrap{}
+.b_mine .user_avatar{float: right;height: 40px;margin-left: auto;margin-right: 10px;overflow: hidden;width: 40px;}
+.b_mine .b_content{margin-left:auto;margin-right: 62px;}
+.b_mine .b_user_name{text-align:right;}
+.b_mine .b_content .b_txt{float:right;background:#a1e85a;border:1px solid #b4d49b;}
+.b_mine .b_tran_icon{left:auto;position:absolute;width:6px;height:9px;background:url(../img/b_right_tran.png) no-repeat;top: 32px;right:57px;background-size:100%;}
+
+.b_chat_content .b_content .b_txt i{display:block;height:19px;width:11px;}
+.b_chat_content .b_content .b_txt .b_audio_icon{float:right;transform:rotate(180deg);background:url(../img/b_audio_icon2.png) no-repeat;background-size:100%;}
+.b_chat_content .b_content .b_txt .b_playing{background:url(../img/b_audio_playing2.gif) no-repeat;background-size:100%;}
+.b_mine .b_content .b_txt .b_audio_icon{float:left;transform:rotate(0deg);background:url(../img/b_audio_icon1.png) no-repeat;background-size:100%;}
+.b_mine .b_content .b_txt .b_playing{background:url(../img/b_audio_playing1.gif) no-repeat;background-size:100%;}
+
+.b_content .b_audio_time{margin-left:2px;color:#a9a9a9; display: inline-block;padding-top:10px;}
+.b_mine .b_audio_time{margin-right:2px;margin-left:auto;float:right;}
+
+.b_reply_wrap{position:fixed;bottom:0px;height:54px;border-top:1px solid #e1e1e1;width:100%;background:#f8f8f8;}
+.b_reply_wrap .b_help_btn{width:33px;height:34px;float:left;background:url(../img/b_help_btn.png) no-repeat;background-size:100%;margin-top:10px;margin-left:10px;}
+.b_reply_wrap .b_reply{margin-left:50px;height:100%;overflow:hidden;}
+.b_reply_wrap .b_reply .b_reply_ipt{margin-right:86px;}
+.b_reply_wrap .b_reply .b_textarea{overflow:auto;white-space: normal;word-break: break-all;height:22px;padding:5px;margin:8px;border:1px solid #cecece;border-radius:5px;}
+.b_reply_wrap .b_reply .b_submit_btn{margin-right:10px;float:right;width:72px;height:37px;background:url(../img/b_send_content_btn.png) no-repeat;background-size:100%;margin-top:8px;}
+
+.at_user_help,.at_somebody{font-family:Arial;white-space:nowrap;font-size:15px;letter-spacing:normal;}
+.at_user_help{position:absolute;top:-1000px;left:-10000px;}
+.at_somebody{padding-right:2px;}
+.b_at_tips{ background: #bbb;left: 0;position: absolute;right: 0;text-align: center;top: -22px;font-family:Arial;font-size:15px;color:#fff;display:none;}
+
+.b_class_info .b_playing3{background:url(../img/b_playing3.gif) no-repeat;background-size:100%;}
+.b_fixed .b_fixed_hide{display:none;}
+.b_fixed .b_fixed_body{position:fixed;top:0;left:0;right:0;z-index:999;background:#fff;}
+.b_fixed .b_unfixed{margin-top:455px;}

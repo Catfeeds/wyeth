@@ -1,0 +1,226 @@
+@charset "utf-8";
+*,body,div,p,table,tr,td,ul,li,ol,dd,dl,dt,span,img,h4{
+    font-family:"微软雅黑", "Microsoft YaHei UI", "黑体", Arial, "Microsoft JhengHei";
+    margin:0;
+    padding:0;
+    outline:none;
+    font-size:14px;
+    -webkit-tap-highlight-color:transparent;
+}
+ul,li{
+    list-style:none;
+}
+body{
+    position:absolute;
+    width:100%;
+    /*overflow:hidden;*/
+    background:#FFF;
+}
+
+.ds-n { display:none; }
+.to-right{display:block; overflow:hidden; width:0px; height:0px; border:6px solid #ccc; border-color:#ebebeb #a1e85a; border-width:6px 0 6px 6px; margin-right:-6px;}
+.to-left{display:block; overflow:hidden; width:0px; height:0px; border:6px solid #ccc; border-color:#ebebeb #FFF; border-width:6px 6px 6px 0; margin-left:-6px;}
+
+.page {
+    width:100%;
+}
+
+.content{ width:100%; height:100%; position:relative; overflow:hidden;}
+
+
+.content .title {width:100%; position:relative; top:0; left:0; overflow:hidden; margin:0; padding:0; background-color:#fedc62; }
+.content .title  img{ width:100%; position:relative; }
+
+.content .course .class_title{width:100%; height:3em; position: relative; top:0; left:0; background: #fedc62;}
+.course .class_title .cid_no{width:100%; height:1.5em; position: absolute; top:0; left:0; color: #763b02; text-align: center; padding-top: 0.3em;}
+.course .class_title .course_name{width:100%; height:1.5em; position: absolute; top:0.5em; left:0; color:#ac5603; text-align: center; font-weight: bold; font-size: 1.3em;}
+
+
+.content .lead{width: 95%; position: relative; background: #FFF; padding-left:2.5%; margin-top:1em;}
+
+.content hr {width:100%; height:3px; position:relative; left:0; background-color:#fedc62; border:none;}
+
+
+.content .dialogue { width:100%; position:relative; top:0%; left:0%; clear:both; float:left;  z-index:999; background:#FFF; padding-top:10px;}
+.content .dialogue:first-child {  border-top:10px; border-top-color: #ffeeb4; border-left:0; border-right:0; border-bottom:0; border-style:solid; }
+.content .dialogue .voice{ width:100%; position:relative; top:0px; left:0;}
+
+.content .dialogue .voice_1 {
+    animation: voice 0.8s linear 0s infinite;
+    -webkit-animation: voice 0.8s linear 0s infinite;
+}
+.content .dialogue .voice_2 {
+    animation: voice 0.8s linear 0.2s infinite;
+    -webkit-animation: voice 0.8s linear 0.2s infinite;
+}
+.content .dialogue .voice_3 {
+    animation: voice 0.8s linear 0.4s infinite;
+    -webkit-animation: voice 0.8s linear 0.4s infinite;
+}
+.content .dialogue .circle_1{ width:4%; height:21%; position:absolute; top:48%; left:23%; background: url(../img/live_in_class/cricle_left_1.png) no-repeat; background-size:100% auto; }
+.content .dialogue .circle_2{ width:4%; height:23%; position:absolute; top:48%; left:23.2%; background: url(../img/live_in_class/cricle_left_2.png) no-repeat; background-size:100% auto; }
+.content .dialogue .circle_3{ width:4%; height:20%; position:absolute; top:48%; left:23.4%; background: url(../img/live_in_class/cricle_left_3.png) no-repeat; background-size:100% auto; }
+.content .dialogue .play_btn{ width:50%; height:34%; position:absolute; top:41%; left:21.4%;}
+.content .dialogue .i_want_ask{ width: 23%; height:34%; position: absolute; top: 41%; right: 3%; background: url('../img/review/i_want_ask.png') no-repeat; background-size: 100% auto;}
+.content .dialogue .teacher_head{ width:16.466667%; position:absolute; top:5%; left:2.5%; border-radius: 50px;}
+.content .dialogue .teacher_name{ width:60%; height:15%; position:absolute; top:0%; left:21%; margin-top:5px; margin-bottom:5px; font-size:1.2em; }
+.content .dialogue .teacher_hospital{ width:60%; height:15%; position:absolute; top:16%; left:21%; margin-top:9px; margin-bottom:5px; font-size:14px; font-weight:bold; color:#703900;}
+.content .dialogue .allvioce_title{ width:100%; position:relative; top:0; left:0;}
+.content .dialogue .video_prompt{ width:100%; height:15%; position:absolute; top:75%; left:21%; margin-top:5px; margin-bottom:5px; font-size:1.2em; }
+
+@keyframes voice
+{
+    0% {opacity: 1}
+    100% {opacity: 0.2}
+}
+
+@-webkit-keyframes voice
+{
+    0% {opacity: 1}
+    100% {opacity: 0.2}
+}
+
+.content .course_content{width: 95%; position: relative; background: #FFF; padding-left:2.5%; }
+
+.content .commend{width: 100%; position: relative; background: #fedc62; color: #9b4a0e; font-size: 1.3em; padding: 0.5em; }
+
+.content .review_ad{ position: relative }
+.content .review_ad_btn{
+    position: absolute;
+    top: 66%;
+    right: 8%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    background: #fedc62;
+    color:#9b4a0e;
+    padding: 0.1rem 0.6rem;
+}
+
+.lessonList{width: 100%;background: #ffffff;}
+.lessonList hr{width:100%; height:3px; background: #fedc62; position: relative; top:0; }
+.lessonList .newsContent{width: 100%;background: url("../img/lesson/newsbg.png") left top no-repeat;background-size: 10%;padding:1em 0;}
+.lessonList .newsContent p{width: 100%;display:block;color:#703900;font-size: 1.2em;line-height: 2em;height: 2em; font-size: 100%;}
+.lessonList .newsContent p.newsBorder{font-weight: bold;}
+.lessonList .newsContent p i.yellow{color:#fedc62;font-weight: bold;}
+.lessonList .newsContent p i.dateIcon{padding-left:1.3em;background: url("../images/bany/date_icon.png")center center no-repeat;background-size: 1.2em;}
+.lessonList .newsContent p i.babyIcon{padding-left:1.3em;background: url("../img/lesson/baby_icon.png")center center no-repeat;background-size: 1.2em;}
+.lessonList .newsContent p i.likeIcon{padding-left:1.3em;background: url("../images/bany/icon_02.png")center center no-repeat;background-size: 1.2em;}
+.lessonList .newsContent .likeIcon1{height:13px; padding-left:1.3em;background-size: 1.2em;}
+.lessonLineTypeOne {position: relative;margin-bottom: 1px; background: #fff;float: left;width: 100%}
+.lessonLineTypeOne .newsCover{width: 30%;margin: 1.5%;  display: table;  float: left;  vertical-align: middle;  text-align: center;}
+.lessonLineTypeOne .newsCover img{height: 8em;
+    width: initial;
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    float: none;}
+.lessonLineTypeOne .newsCover .play_btn {width:30%; height:79%; margin: 1.5%; position: absolute; top:0; left:0; background: url(../img/lesson/play_btn.png) no-repeat; background-size: 100% 100%; display: inline; }
+.lessonLineTypeOne .newsContent{width:60%;margin-left:37%; overflow: hidden;}
+.lessonLineTypeOne .newsContent h4,
+.lessonLineTypeOne .newsContent p{width:100%;font-size: 1em;color:#171717;}
+.lessonLineTypeOne .newsContent h4{font-size: 1.2em;}
+.lessonLineTypeOne .newsContent h4 a{color:#171717;}
+.lessonLineTypeOne .newsContent p span{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+
+.lessonLineTypeOne .newsContent p.doctor{background: url("../images/bany/icon_01.png") left top no-repeat;height: inherit;line-height: inherit;background-size: 1.3em;}
+.lessonLineTypeOne .newsContent p.doctor span{text-indent: 2em;line-height: 1.2em;height:1.2em;
+    float: none;display:inline-block; width: 120%;}
+.lessonList .newsContent p i{margin-right: 0.5em;}
+.lessonList .newsContent .functionBTN{width:19.5%;height: 3em;background: url("../images/bany/reg_review.png") center center no-repeat;background-size: 100%;display: block;position: absolute;bottom:2%;right:1%;}
+.lessonList .newsContent .functionBTN.regstart{background-image: url("../images/bany/reg_start.png")}
+.lessonList .newsContent .functionBTN.regend{background-image: url("../images/bany/reg_end.png")}
+.lessonList .newsContent .functionBTN.regreview{background-image: url("../images/bany/reg_review.png")}
+.lessonList .newsContent .functionBTN.regwait{background-image: url("../images/bany/reg_wait.png")}
+.lessonList .newsContent .functionBTN.regplaying{background-image: url("../images/bany/reg_playing.png")}
+
+.qrcode img{max-width: 100%}
+
+@media screen and (min-width: 320px) {
+    .lessonLineTypeOne .newsContent{width:57%;margin-left:42%; overflow: hidden;}
+    .mineTop .keepcenter img{margin: 0 -3%;}
+    .lessonUserTop .userPhoto{
+        width: 6em;
+        height: 6em;
+        border-radius: 50%;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        margin-left: -3em;
+    }
+    .content .dialogue .teacher_hospital{ width:60%; height:15%; position:absolute; top:16%; left:21%; margin-top:6px; margin-bottom:5px; font-size:14px; font-weight:bold; color:#703900;}
+    .lessonLineTypeOne .newsCover{width: 30%;margin: 1.5%;  display: block;  float: left;  vertical-align: middle;  text-align: center;}
+    .lessonLineTypeOne .newsCover{max-width: 112px;}
+    .lessonLineTypeOne .newsCover img{max-width: 96px;}
+    .lessonLineTypeOne .newsContent p{font-size: 0.9em;}
+    .lessonList .newsContent{padding: 0.1em 0;}
+}
+@media screen and (min-width: 360px) {
+    .lessonLineTypeOne .newsContent{width:57%;margin-left:35%;}
+    .lessonUserTop .userPhoto{
+        width: 6em;
+        height: 6em;
+        border-radius: 50%;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        margin-left: -3em;
+    }
+    .mineTop .keepcenter img{margin: 0 -2%;}
+}
+@media screen and (min-width: 380px) {
+    .lessonUserTop .userPhoto{
+        width: 7em;
+        height: 7em;
+        border-radius: 50%;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        margin-left: -3.5em;
+    }
+}
+
+/*弹出层css*/
+.content .tc {position:fixed; width:100%; top:30%; left:5%; width:90%; height:312px; background:url(../img/review/zx_question.png?v=20160408) no-repeat; background-size:100% auto; z-index:9999;}
+.content .tc .textarea {position:absolute; width:90%; height:50%; top:19%; left:5%; font-size:1.2em; line-height:1.5em; overflow:hidden;}
+.content .tc .close_btn {position:absolute; width:10%; height:13%; right:2%; top:1%; background:url(../img/ico_close.png) no-repeat; background-size:100% auto; z-index:100;}
+.content .tc .send_btn {position:absolute; width:20%; height:13%; left:40%; bottom:5%; background:url(../img/b_send_content_btn.png) no-repeat; background-size:100% auto; z-index:100;}
+.content .tc .notify {position:absolute; width:90%; left:8%; bottom:20%; font-size: 1em; }
+
+.tips {
+    padding: 0 1rem;
+    height:1.4em;
+    position:fixed;
+    top:50%;
+    left:50%;
+    color:#b15f0a;
+    background:rgba(254,220,90, 0.5);
+    border-radius:20px;
+    z-index: 9999;
+    line-height:1.4em;
+    font-size:1.4em;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 320px){
+    .content .tc {height:300px}
+    .content .tc .send_btn {position:absolute; width:20%; height:13%; left:40%; top:68%; background:url(../img/b_send_content_btn.png) no-repeat; background-size:100% auto; z-index:100;}
+    .content .tc .notify {position:absolute; width:90%; left:8%; top:60%; font-size: 0.8rem; }
+    .content .tc .textarea {height: 40%;}
+}
+@media screen and (max-width: 400px){
+    .content .tc {height:300px}
+    .content .tc .send_btn {position:absolute; width:20%; height:13%; left:40%; bottom:10%; background:url(../img/b_send_content_btn.png) no-repeat; background-size:100% auto; z-index:100;}
+    .content .tc .notify {position:absolute; width:90%; left:8%; bottom:25%; font-size: 0.8em; }
+}

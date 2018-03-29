@@ -1,0 +1,148 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+
+.cicon {
+    display: inline-block;
+    background-size: 1582px 1315px;
+}
+.icon-btn-close {
+  background-image: url(icons_sprite.png);
+  background-position: -1506px -323px;
+  width: 59px;
+  height: 58px;
+}
+.icon-btn-close1 {
+  background-image: url(icons_sprite.png);
+  background-position: -1450px -395px;
+  width: 44px;
+  height: 44px;
+}
+.icon-btn-invite {
+  background-image: url(icons_sprite.png);
+  background-position: -648px -1150px;
+  width: 345px;
+  height: 147px;
+}
+.icon-btn-join {
+  background-image: url(icons_sprite.png);
+  background-position: -1386px -323px;
+  width: 110px;
+  height: 62px;
+}
+.icon-btn-normal {
+  background-image: url(icons_sprite.png);
+  background-position: -692px -803px;
+  width: 364px;
+  height: 92px;
+}
+.icon-btn-question {
+  background-image: url(icons_sprite.png);
+  background-position: -1510px -205px;
+  width: 69px;
+  height: 69px;
+}
+.icon-btn-share {
+  background-image: url(icons_sprite.png);
+  background-position: -1386px -205px;
+  width: 114px;
+  height: 108px;
+}
+.icon-btn-sigin-ok {
+  background-image: url(icons_sprite.png);
+  background-position: 0px -1150px;
+  width: 638px;
+  height: 165px;
+}
+.icon-btn-sigin {
+  background-image: url(icons_sprite.png);
+  background-position: -712px -926px;
+  width: 638px;
+  height: 165px;
+}
+.icon-fans {
+  background-image: url(icons_sprite.png);
+  background-position: -1510px -284px;
+  width: 29px;
+  height: 27px;
+}
+.icon-home {
+  background-image: url(icons_sprite.png);
+  background-position: -1386px -468px;
+  width: 35px;
+  height: 44px;
+}
+.icon-info-title {
+  background-image: url(icons_sprite.png);
+  background-position: -693px -424px;
+  width: 639px;
+  height: 92px;
+}
+.icon-join-block {
+  background-image: url(icons_sprite.png);
+  background-position: 0px -926px;
+  width: 702px;
+  height: 214px;
+}
+.icon-ok {
+  background-image: url(icons_sprite.png);
+  background-position: -1386px 0px;
+  width: 196px;
+  height: 195px;
+}
+.icon-phone {
+  background-image: url(icons_sprite.png);
+  background-position: -1504px -395px;
+  width: 35px;
+  height: 44px;
+}
+.icon-rank1 {
+  background-image: url(icons_sprite.png);
+  background-position: 0px 0px;
+  width: 683px;
+  height: 539px;
+}
+.icon-rank2 {
+  background-image: url(icons_sprite.png);
+  background-position: 0px -549px;
+  width: 682px;
+  height: 367px;
+}
+.icon-siginbar {
+  background-image: url(icons_sprite.png);
+  background-position: -693px 0px;
+  width: 683px;
+  height: 414px;
+}
+.icon-time {
+  background-image: url(icons_sprite.png);
+  background-position: -1386px -395px;
+  width: 54px;
+  height: 63px;
+}
+.icon-title1 {
+  background-image: url(icons_sprite.png);
+  background-position: -1549px -395px;
+  width: 31px;
+  height: 31px;
+}
+.icon-uberbar {
+  background-image: url(icons_sprite.png);
+  background-position: -692px -549px;
+  width: 677px;
+  height: 244px;
+}
+.icon-user {
+  background-image: url(icons_sprite.png);
+  background-position: -1431px -468px;
+  width: 35px;
+  height: 44px;
+}
